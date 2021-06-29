@@ -1,0 +1,29 @@
+.hero{
+    height:100vh;
+}
+.navbar{
+    height: 100vh;
+}
+
+.home{
+    height: 23vh;
+    width:100%;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color:yellow;
+}
+.bg{
+    opacity: 0.8;
+    background-color:#111;
+}
+.bg a {
+  opacity: 1;
+}
+.background{
+    background-color:#111;
+}

@@ -1,0 +1,35 @@
+.main{
+    overflow-y:hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: 16rem;
+    padding: 10px;
+    background-color:#111;
+}
+.main::-webkit-scrollbar {
+    display: none;
+  }
+  .main {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+  }
+  h1{
+      position: absolute;
+  }
+.banner{
+    height:20rem;
+    width:15rem;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.banner:hover{
+    transform: scale(1.1);
+}
+
+.movie-name
+{
+    font-size:1rem;
+    margin-left:-1rem ;
+}
